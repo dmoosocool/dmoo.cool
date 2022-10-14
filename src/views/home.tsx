@@ -14,15 +14,16 @@ export default defineComponent({
   render() {
     return (
       <>
-        <meta property="og:site_name" content="dmoosocool's blog" />
-        <meta property="og:title" content="dmoosocool" />
-        <meta property="og:type" content="article" />
-        <meta
-          property="og:image"
-          content="https://avatars.githubusercontent.com/u/30599141?v=4"
-        />
-        <meta property="og:url" content="https://github.com/dmoosocool" />
-
+        <head>
+          <meta property="og:site_name" content="dmoosocool's blog" />
+          <meta property="og:title" content="dmoosocool" />
+          <meta property="og:type" content="article" />
+          <meta
+            property="og:image"
+            content="https://avatars.githubusercontent.com/u/30599141?v=4"
+          />
+          <meta property="og:url" content="https://github.com/dmoosocool" />
+        </head>
         <div class="container mx-auto">
           <div class="hstack">
             <h1>Hello {this.name} ~</h1>
